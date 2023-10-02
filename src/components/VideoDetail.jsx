@@ -4,7 +4,7 @@ import ReactPlayer from "react-player";
 import { Typography, Box, Stack } from "@mui/material";
 import CheckCircleOutlineRoundedIcon from "@mui/icons-material/CheckCircleOutlineRounded";
 
-import { Videos } from "./";
+import { VideoSidebar } from "./";
 import { fetchFromApi } from "../utils/fetchFromApi";
 
 const VideoDetail = () => {
@@ -73,14 +73,7 @@ const VideoDetail = () => {
             </Stack>
           </Box>
         </Box>
-        <Box
-          px={2}
-          py={{ md: 1, xs: 5 }}
-          justifyContent="center"
-          alignItems={"center"}
-        >
-          <Videos videos={videos} direction="column" />
-        </Box>
+        <VideoSidebar videos={videos} direction="column" />
       </Stack>
     </Box>
   );
