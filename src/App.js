@@ -10,11 +10,11 @@ import {
 } from "./components";
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="youtube-project">
     <Box sx={{ backgroundColor: "#000" }}>
       <Navbar />
       <Routes>
-        <Route path="/" exact element={<Feed />} />
+        <Route path="/" exact index element={<Feed />} />
         <Route path="/video/:id" element={<VideoDetail />} />
         <Route path="/channel/:id" element={<ChannelDetail />} />
         <Route path="/search/:searchTerm" element={<SearchFeed />} />
