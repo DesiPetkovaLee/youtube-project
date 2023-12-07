@@ -1,6 +1,5 @@
 import MusicNoteIcon from "@mui/icons-material/MusicNote";
 import HomeIcon from "@mui/icons-material/Home";
-import CodeIcon from "@mui/icons-material/Code";
 import OndemandVideoIcon from "@mui/icons-material/OndemandVideo";
 import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
 import LiveTvIcon from "@mui/icons-material/LiveTv";
@@ -29,10 +28,6 @@ export const categories = [
   { name: "Comedy", icon: <TheaterComedyIcon /> },
   { name: "Gym", icon: <FitnessCenterIcon /> },
   { name: "Crypto", icon: <DeveloperModeIcon /> },
-  { name: "JS Mastery", icon: <CodeIcon /> },
-  { name: "Coding", icon: <CodeIcon /> },
-  { name: "ReactJS", icon: <CodeIcon /> },
-  { name: "NextJS", icon: <CodeIcon /> },
 ];
 
 export const demoThumbnailUrl = "https://pixabay.com/images/search/it%20/";
